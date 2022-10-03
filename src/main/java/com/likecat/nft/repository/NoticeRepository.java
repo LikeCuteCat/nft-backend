@@ -1,9 +1,10 @@
 package com.likecat.nft.repository;
 
-import com.likecat.nft.entity.Notice;
+import com.likecat.nft.entity.notice.Notice;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
 public interface NoticeRepository extends JpaRepository<Notice, Long> {
+
 }
